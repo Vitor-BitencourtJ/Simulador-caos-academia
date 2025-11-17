@@ -75,5 +75,10 @@ for k in range (50):
     list_chaos += [academia.calcular_caos()]
     
 import seaborn as sns
+import matplotlib.pyplot as plt 
+
 sns.histplot(list_chaos)
+
+plt.show()
+
 print(f"Caos médio: {sum(list_chaos)/len(list_chaos)}")
